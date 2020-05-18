@@ -14,4 +14,11 @@ Vi_spacy đều của tác giả Trần Việt Trung, phoBert của VinAI). Tron
  Vấn đề tồn tại ở đây là: đôi khi cùng là 1 từ viết tắt, nhưng có thể có 2 ý nghĩa khác nhau(ttlt: có thể hiển là trung tâm luyện thi hoặc
  là thông tư liên tịch).
  
- 
+# Hướng dẫn cài đặt:
+Bộ dữ liệu đầy đủ: https://github.com/duyvuleo/VNTC/tree/master/Data (trong project trên tôi chỉ trích ra 1 phần nhỏ cho việc kiểm tra tính 
+hiệu quả của nó)
+
+Sau khi download Project về, giải nén file data và cho nó vào cùng thư mục của thư mục vừa tải về, ta được thư mục data.
+Chạy file word_exist_arc.py, ta đc file json chứa các từ của các topic, chứa từ viết tắt, nằm trong thư mục data/word_exist_arc.
+Chạy file word_without_arc.py, ta đc file json chứa các từ của các topic, không chứa từ viết tắt, nằm trong thư mục data/word_without_arc.
+
