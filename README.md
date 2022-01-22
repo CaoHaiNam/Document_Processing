@@ -1,8 +1,8 @@
 # Document_Processing
 Tiền xử lý trong bài toán toán phân loại văn bản theo chủ đề áp dụng kỹ thuật naive bayes, có xử lý từ viết tắt
 Phân loại Naive Bayes là một kỹ thuật nổi tiếng và được áp dụng rất nhiều trong các bài toán phân loại văn bản. Trong đó, công đoạn tách từ
-(feature extraction) có vai trò rất quan trọng. Đối với văn bản tiếng Việt, việc tách từ(token) không chỉ dựa vào dấu cách(space) mà phức 
-tạp hơn(lấy ví dụ đơn giản: nước, ngoài và nước_ngoài hoàn toàn khác nhau). Vì vậy, có một số công cụ public để thực hiện công việc này(pyvi,
+(feature extraction) có vai trò rất quan trọng. Đối với văn bản tiếng Việt, việc tách từ (token) không chỉ dựa vào dấu cách (space) mà phức 
+tạp hơn(lấy ví dụ đơn giản: nước, ngoài và nước_ngoài hoàn toàn khác nhau). Vì vậy, có một số công cụ public để thực hiện công việc này (pyvi,
 Vi_spacy đều của tác giả Trần Việt Trung, phoBert của VinAI). Trong project của tôi, tôi sử dụng Pyvi.
 
  Điềm khác biệt trong trong project này, đó là quan tâm đến việc xử lý từ viết tắt(ví dụ: ubnd: ủ ban nhân dân). Hiện tại, công việc này 
